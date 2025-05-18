@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JU MAKE - Catálogo de Maquiagem</title>
+  <title>Catálogo de Maquiagem</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
+
   <header>
     <img src="logomarca.png" alt="Logo da Loja" class="logo" onerror="this.src='https://via.placeholder.com/200x100?text=JU+MAKE'" />
     <h1>CATÁLOGO DE PRODUTOS</h1>
@@ -38,20 +39,18 @@
     </div>
   </div>
 
-  <div class="filters-container">
-    <div class="search-container">
-      <input type="text" id="buscarProduto" placeholder="Buscar produto..." oninput="filtrarProdutos()">
-    </div>
+  <div class="search-container">
+    <input type="text" id="buscarProduto" placeholder="Buscar produto..." oninput="filtrarProdutos()">
+  </div>
 
-    <div class="category-filter">
-      <button class="category-btn active" data-category="todos">Todos</button>
-      <button class="category-btn" data-category="Rosto">Rosto</button>
-      <button class="category-btn" data-category="Olhos">Olhos</button>
-      <button class="category-btn" data-category="Lábios">Lábios</button>
-      <button class="category-btn" data-category="Skincare">Skincare</button>
-      <button class="category-btn" data-category="Acessórios">Acessórios</button>
-      <button class="category-btn" data-category="Kits">Kits</button>
-    </div>
+  <div class="category-filter">
+    <button class="category-btn active" data-category="todos">Todos</button>
+    <button class="category-btn" data-category="Rosto">Rosto</button>
+    <button class="category-btn" data-category="Olhos">Olhos</button>
+    <button class="category-btn" data-category="Lábios">Lábios</button>
+    <button class="category-btn" data-category="Skincare">Skincare</button>
+    <button class="category-btn" data-category="Acessórios">Acessórios</button>
+    <button class="category-btn" data-category="Kits">Kits</button>
   </div>
 
   <main id="catalogo" class="catalogo-produtos">
@@ -60,7 +59,7 @@
 
   <div id="lightbox" class="lightbox">
     <span class="close-lightbox">&times;</span>
-    <img id="lightbox-img" src="/placeholder.svg" alt="Imagem ampliada">
+    <img id="lightbox-img" src="https://via.placeholder.com/800x800?text=Imagem" alt="Imagem ampliada">
     <div class="lightbox-controls">
       <button id="lightbox-prev">&#10094;</button>
       <span id="lightbox-counter">1/1</span>
@@ -75,7 +74,7 @@
       <div class="detalhe-grid">
         <div class="detalhe-imagens">
           <div class="detalhe-imagem-principal">
-            <img id="detalhe-img-principal" src="/placeholder.svg" alt="Produto">
+            <img id="detalhe-img-principal" src="https://via.placeholder.com/500x500?text=Produto" alt="Produto">
           </div>
           <div class="detalhe-miniaturas" id="detalhe-miniaturas">
             <!-- Miniaturas carregadas via JavaScript -->
