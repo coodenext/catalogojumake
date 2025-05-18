@@ -138,7 +138,7 @@ const produtos = [
     preco: 22.00,
     imagens: ["imagens/1 (18).jpg"],
     descricao: "Primer Facial – Phállebeaut – Preparação perfeita para a pele, controla a oleosidade e aumenta a durabilidade da maquiagem!",
-    estoque: 4,
+    estoque: 3,
     categoria: "Skincare"
   },
   {
@@ -183,7 +183,7 @@ const produtos = [
     preco: 20.00,
     imagens: ["imagens/1 (14).jpg"],
     descricao: "Gel Creme Hidratante Facial – Phállebeauty – Hidratação intensa e rápida absorção, deixando a pele macia, fresca e revitalizada!",
-    estoque: 2,
+    estoque: 1,
     categoria: "Skincare"
   },
   {
@@ -201,7 +201,7 @@ const produtos = [
     preco: 15.00,
     imagens: ["imagens/1 (12).jpg"],
     descricao: "Gel Incolor Fix & Antifrizz – Mia Make – Controle de frizz e fixação sem pesar, deixando o cabelo suave, disciplinado e com brilho natural",
-    estoque: 3,
+    estoque: 2,
     categoria: "Skincare"
   },
   {
