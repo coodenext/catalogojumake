@@ -18,6 +18,7 @@ header {
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .logo {
@@ -32,6 +33,30 @@ header h1 {
   color: #d6336c;
   font-size: 24px;
   padding-top: 45px;
+}
+
+/* Admin link */
+.admin-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #d6336c;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.admin-link:hover {
+  background-color: #b52b5c;
+  transform: rotate(30deg);
 }
 
 /* Banner rotativo */
@@ -290,6 +315,7 @@ header h1 {
   display: block;
   -webkit-line-clamp: unset;
   -webkit-box-orient: unset;
+  text-align: center;
 }
 
 .estrelas {
@@ -690,6 +716,14 @@ header h1 {
   
   .detalhe-imagem-principal {
     height: 250px;
+  }
+  
+  .admin-link {
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
   }
 }
 
