@@ -8,6 +8,14 @@ let produtos = [
     estoque: 3,
     categoria: "Kits"
   },
+  {
+    id: 1,
+    nome: "KIT Primer Facial – Phállebeaut / Esponja Chanfrada / 4 Angels Corretivo Líquido",
+    preco: 41.90,
+    imagens: ["imagens/2 (1).jpg"],
+    estoque: 3,
+    categoria: "Kits"
+  },
   // ... outros produtos (mantidos como fallback)
 ];
 
